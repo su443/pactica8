@@ -1,0 +1,54 @@
+
+
+
+body{
+    background: black;
+    color: yellow;
+}
+.contenedor{
+    max-width: 600px;
+    min-width: 500px;
+    max-height: 500px;
+    min-height: 450px;
+    background: yellow;
+    color: black;
+    padding:.3em;
+    margin: auto;
+    
+}
+
+@media only screen and (max-width: 550px){
+    div.informacion{
+        background: green;
+        color: yellow;
+        font-size:medium;
+}
+    }
+
+.encabezado{
+    background: blue;
+    color: yellow;
+    font-size: 20pt;
+    text-align: center;
+    padding: .3em;
+    height: 80px;
+}
+
+ .informacion{
+        text-align: justify;
+        font-size: 14pt;
+        padding: 1em;
+        border: 3px solid #005500;
+        height: 310px;
+
+     overflow:scroll;
+     height:365px;
+     width:555px;
+
+  {
+    background-image:url("./img/fondo.jpg");
+
+
+    }
+   
+ }
